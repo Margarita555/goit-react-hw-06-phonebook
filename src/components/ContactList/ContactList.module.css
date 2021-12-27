@@ -14,7 +14,8 @@
   margin-right: 30px;
 }
 
-.star {
-  margin-right: 5px;
+.name::before {
+  content: '\272F';
   color: rgb(11, 159, 196);
+  margin-right: 6px;
 }

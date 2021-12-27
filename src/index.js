@@ -2,13 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
-// import store from './redux/store';
-import store from './redux/newStore';
-
+import store from './redux/store';
 import App from './components/App/App.jsx';
 import './index.css';
-console.log(store);
-console.log(store());
 
 ReactDOM.render(
   <React.StrictMode>
