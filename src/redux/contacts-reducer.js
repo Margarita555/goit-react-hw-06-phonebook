@@ -27,6 +27,7 @@ export default combineReducers({
 //       return state;
 //   }
 // };
+
 // const filter = (state = '', { type, payload }) => {
 //   switch (type) {
 //     case 'contacts/changeFilter':
